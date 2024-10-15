@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+:root {
+    --color_primario: #8527c3fd;
+    --color_primario_suave: rgba(234,105,139);
+    --color_blanco: #fff;
+    --altura_header: 110px;
+    --padding_left_right: 14rem;
+    --ancho_maximo: 1200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a0a0a;
+    position: relative;
+    /*font-family: 'Koulen', cursive;*/
+    /*font-family: 'Poppins', sans-serif; */
+}
+
+a{
+    text-decoration: none;
+}
+ol, ul{
+    list-style: none;
+}
+
+
+.barra{
+    height: 2px;
+    background-color: #ffd60a;
+    padding-top: 2px;
+    position: relative;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 var(--padding_left_right);
+}
+.menu_hamburguesa{
+    display: none;
+    color: #f8f6e9;
+}
+.menu_hamburguesa:checked + .ul_links{
+    height: calc(50vh - var(--altura_header))
+}
+.Logo img{
+    width: 140px;
+
+    position: relative;
+
+}
+
+.list_icon {
+    color: var(--color_blanco);
+    cursor: pointer;
+}
+.ul_links {
+    width: 25%;
+    /*background-color: var(--color_primario_suave);*/
+    background: #ffd60a;
+    position: absolute;
+    top: var(--altura_header);
+    right: 22%;
+    overflow: hidden;
+    /* height: calc(100vh - var(--altura_header));*/
+    display: flex;
+    height: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    transition: all .3s;
+    z-index: 10;
+}
+
+.link {
+    top: -10px;
+    position: relative;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif; 
+    color: #f8f6e9;
+    font-weight: bold;
+}
+.linkPaginas {
+
+    position: absolute;
+    left: 14rem;
+    right: 14rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkPaginas a {
+    color: white;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 30px;
+    text-align: center; 
+    padding: 0 30px; 
+    position: relative;
+}
+.labe_hamburguesa img{
+    position: relative;
+    top: 4px;
+    left: -35px;
+}
+/* --------------------------------------*/
+
+.cuadro1{
+    position: absolute;
+
+    display: flex;
+    left: 14rem;
+    right: 14rem;
+}
+.texto1{
+    padding-top: 50px;
+    
+    width: 50%;
+}
+.texto1 h1{
+    font-family: 'Koulen', sans-serif; 
+    font-size: 120px;
+    line-height: 1.0;
+    color: white;
+}
+.texto1 p{
+    color: white;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 21px;
+}
+
+.imagen1python{
+    padding-top: 50px;
+    
+    width: 50%;
+    text-align: right;
+}
+.imagen1python img{
+    width: 350px;
+}
+
+
+.cuadro2{
+    top: 39rem;
+    position: absolute;
+    display: flex;
+    left: 14rem;
+    right: 14rem;
+}
+.texto2{
+    padding-top: 50px;
+    
+    width: 50%;
+}
+.texto2 h2{
+    font-family: 'Koulen', sans-serif; 
+    font-size: 40px;
+    line-height: 1.0;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+.texto2 p{
+    color: white;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+.texto2 a{
+    color: #ffd60a;
+}
+
+.imagen2python{
+    padding-top: 50px;
+    
+    width: 50%;
+    text-align:left;
+}
+.imagen2python img{
+    width: 350px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
