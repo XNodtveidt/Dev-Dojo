@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');  
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 :root {
     --color_primario: #8527c3fd;
     --color_primario_suave: rgba(234,105,139);
@@ -485,4 +483,103 @@ ol, ul{
     font-size: 17px;
     color: rgb(151,58,168);
     color: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);;
+}
+@media (max-width: 1200px) {
+    .texto1 {
+        padding: 3rem 20rem 1rem 4rem;
+    }
+    .imagen1 {
+        top: 8rem;
+        left: 45rem;
+    }
+    .lenguajes {
+        padding: 0.9rem 10rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .texto1 {
+        padding: 2rem 10rem 1rem 2rem;
+    }
+    .imagen1 {
+        top: 7rem;
+        left: 30rem;
+    }
+    .lenguajes {
+        padding: 0.9rem 5rem;
+    }
+    .contenedor {
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .imagen2 img {
+        width: 100%;
+        top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .texto1 {
+        padding: 1rem 2rem;
+    }
+    .texto1 h1 {
+        font-size: 3.5rem;
+        line-height: 60px;
+    }
+    .imagen1 {
+        position: relative;
+        top: 1rem;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .imagen1 img {
+        height: 20rem;
+        width: auto;
+    }
+    .lenguajes {
+        padding: 0.9rem 2rem;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 576px) {
+    .texto1 h1 {
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+    .texto1 p {
+        font-size: 1.2rem;
+    }
+    .imagen1 img {
+        height: 15rem;
+    }
+    .lenguajes img {
+        height: 3rem;
+    }
+    .cuadrado {
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .texto1 h1 {
+        font-size: 1.8rem;
+    }
+    .texto1 p {
+        font-size: 1rem;
+    }
+    .lenguajes {
+        flex-direction: column;
+        padding: 0;
+    }
+    .lenguajes img {
+        height: 2.5rem;
+    }
+    .contenedor {
+        padding: 0;
+    }
 }
