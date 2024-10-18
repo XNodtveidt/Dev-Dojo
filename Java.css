@@ -4,9 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 :root {
-    --color_primario: #8527c3fd;
-    --color_primario_suave: rgba(234,105,139);
-    --color_blanco: #fff;
     --altura_header: 110px;
     --padding_left_right: 14rem;
     --ancho_maximo: 1200px;
@@ -34,7 +31,7 @@ ol, ul{
 
 .barra{
     height: 2px;
-    background-color: #ffd60a;
+    background-color: #e6313c;
     padding-top: 2px;
     position: relative;
 }
@@ -69,7 +66,7 @@ ol, ul{
 .ul_links {
     width: 25%;
     /*background-color: var(--color_primario_suave);*/
-    background: #ffd60a;
+    background: #e6313c;
     position: absolute;
     top: var(--altura_header);
     right: 22%;
@@ -119,79 +116,56 @@ ol, ul{
     left: -35px;
 }
 /* --------------------------------------*/
-
 .cuadro1{
     position: absolute;
-
-    display: flex;
     left: 14rem;
     right: 14rem;
 }
-.texto1{
-    padding-top: 50px;
-    
-    width: 50%;
-}
-.texto1 h1{
-    font-family: 'Koulen', sans-serif; 
-    font-size: 120px;
-    line-height: 1.0;
+.cuadro1 h1{
+    font-family: 'Koulen', sans-serif;
+    font-size: 100px;
     color: white;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
 }
-.texto1 p{
-    color: white;
+.cuadro1 p{
     font-family: "Consolas", "Courier New", monospace;
-    font-size: 21px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    bottom: 30px;
+}
+.cuadro1 a{
+    font-family: "Consolas", "Courier New", monospace;
+    color: #e6313c;
 }
 
-.imagen1python{
-    padding-top: 50px;
-    
-    width: 50%;
-    text-align: right;
-}
-.imagen1python img{
-    width: 350px;
-}
-
-
-.cuadro2{
-    top: 39rem;
-    position: absolute;
+.tarjetas{
+    padding-top: 80px;
     display: flex;
-    left: 14rem;
-    right: 14rem;
+    justify-content: space-between;
 }
-.texto2{
-    padding-top: 50px;
-    
-    width: 50%;
+.tarjetas img{
+    width: 330px;
+    position: relative;
+    bottom: 50px;
 }
-.texto2 h2{
-    font-family: 'Koulen', sans-serif; 
-    font-size: 40px;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 8px;
+.tarjeta{
+    flex: 1;
+    text-align: center;  
+    border: 2px solid #e6313c;
+    margin: 5px;
+    border-radius: 40px;
+    height: 500px;
 }
-.texto2 p{
-    color: white;
-    font-family: "Consolas", "Courier New", monospace;
-    font-size: 21px;
-    padding-bottom: 20px;
+.tarjeta p {
+    font-size: 26px;
+    padding-top: 20px;
 }
-.texto2 a{
-    color: #ffd60a;
-}
-
-.imagen2python{
-    padding-top: 50px;
-    
-    width: 50%;
-    text-align:left;
-}
-.imagen2python img{
-    width: 350px;
+.tarjeta a{
+    font-size: 26px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -200,7 +174,7 @@ ol, ul{
     position: absolute;
     left: 14rem;
     right: 14rem;
-    top: 72rem
+    top: 66rem
 }
 .cursos h2{
     font-family: 'Koulen', sans-serif;
@@ -209,19 +183,19 @@ ol, ul{
 }
 .lecciones{
     border-radius: 10px;
-    border: 2px solid #ffd60a4d;
+    border: 2px solid #e6313d63;
     display: flex;
     align-items: center;
     gap: 30px;
     padding-bottom: 10px;
     padding-top: 5px;
 }
-.pAmarillo{
+.pRojo{
     padding-left: 40px;
     padding-top: 5px;
     padding-right: 20px;
 }
-.pAmarillo img{
+.pRojo img{
     width: 50px;
     
 }
@@ -235,12 +209,12 @@ ol, ul{
     font-size: 18px;
     color: white;
 }
-.cAmarillo{
+.cRojo{
     padding-top: 10px;
     position: absolute;
     right: 55px;
 }
-.cAmarillo img{
+.cRojo img{
     width: 50px;
 }
 
@@ -249,7 +223,7 @@ ol, ul{
     position: absolute;
     left: 14rem;
     right: 14rem;
-    top: 117rem;
+    top: 112rem;
     display: flex;
 }
 
@@ -265,7 +239,7 @@ ol, ul{
 }
 
 .foto {
-    background-color: #ffd60a;
+    background-color: #e6313c;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -300,7 +274,7 @@ ol, ul{
 }
 
 .comentario a {
-    color: #ffd60a;
+    color: #e6313c;
 }
 
 /****/
@@ -364,31 +338,31 @@ ol, ul{
 .barra70{
     width: 70%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #e6313c;
     border-radius: 100px;
 }
 .barra15{
     width: 15%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #e6313c;
     border-radius: 100px;
 }
 .barra7{
     width: 7%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #e6313c;
     border-radius: 100px;
 }
 .barra3{
     width: 3%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #e6313c;
     border-radius: 100px;
 }
 .barra5{
     width: 5%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #e6313c;
     border-radius: 100px;
 }
 
@@ -396,30 +370,30 @@ ol, ul{
     position: absolute;
     left: 14rem;
     right: 14rem;
-    top: 140.5rem; 
+    top: 136.5rem; 
     text-align: center;
 }
 .vermas a{
     font-family: 'Koulen', sans-serif;
     font-size: 20px;
-    color: #ffd60a;
+    color: #e6313c;
 
 }
 
 /*----------------------------------------------------------------------------------------*/
 .barra2{
     height: 2px;
-    background-color: #ffd60a;
+    background-color: #e6313c;
     padding-top: 2px;
     position: relative;
-    top: 140rem;
+    top: 136rem;
 }
 
 .footer{
     position: absolute;
     left: 14rem;
     right: 14rem;
-    top: 148rem;
+    top: 144rem;
     text-align: center;
     height: 120px;
 }
@@ -429,5 +403,5 @@ ol, ul{
 .footer p{
     font-family: "Consolas", "Courier New", monospace;
     font-size: 17px;
-    color: #ffd60a;
+    color: #e6313c;
 }

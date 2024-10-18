@@ -4,9 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 :root {
-    --color_primario: #8527c3fd;
-    --color_primario_suave: rgba(234,105,139);
-    --color_blanco: #fff;
     --altura_header: 110px;
     --padding_left_right: 14rem;
     --ancho_maximo: 1200px;
@@ -34,7 +31,7 @@ ol, ul{
 
 .barra{
     height: 2px;
-    background-color: #ffd60a;
+    background-color: #777cb4;
     padding-top: 2px;
     position: relative;
 }
@@ -69,7 +66,7 @@ ol, ul{
 .ul_links {
     width: 25%;
     /*background-color: var(--color_primario_suave);*/
-    background: #ffd60a;
+    background: #777cb4;
     position: absolute;
     top: var(--altura_header);
     right: 22%;
@@ -144,13 +141,13 @@ ol, ul{
     font-size: 21px;
 }
 
-.imagen1python{
+.imagen1php{
     padding-top: 50px;
     
     width: 50%;
     text-align: right;
 }
-.imagen1python img{
+.imagen1php img{
     width: 350px;
 }
 
@@ -181,16 +178,16 @@ ol, ul{
     padding-bottom: 20px;
 }
 .texto2 a{
-    color: #ffd60a;
+    color: #777cb4;
 }
 
-.imagen2python{
+.imagen2php{
     padding-top: 50px;
     
     width: 50%;
     text-align:left;
 }
-.imagen2python img{
+.imagen2php img{
     width: 350px;
 }
 
@@ -209,19 +206,19 @@ ol, ul{
 }
 .lecciones{
     border-radius: 10px;
-    border: 2px solid #ffd60a4d;
+    border: 2px solid #777cb47f;
     display: flex;
     align-items: center;
     gap: 30px;
     padding-bottom: 10px;
     padding-top: 5px;
 }
-.pAmarillo{
+.pAzul{
     padding-left: 40px;
     padding-top: 5px;
     padding-right: 20px;
 }
-.pAmarillo img{
+.pAzul img{
     width: 50px;
     
 }
@@ -235,12 +232,12 @@ ol, ul{
     font-size: 18px;
     color: white;
 }
-.cAmarillo{
+.cAzul{
     padding-top: 10px;
     position: absolute;
     right: 55px;
 }
-.cAmarillo img{
+.cAzul img{
     width: 50px;
 }
 
@@ -265,7 +262,7 @@ ol, ul{
 }
 
 .foto {
-    background-color: #ffd60a;
+    background-color: #777cb4;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -300,7 +297,7 @@ ol, ul{
 }
 
 .comentario a {
-    color: #ffd60a;
+    color: #777cb4;
 }
 
 /****/
@@ -364,31 +361,31 @@ ol, ul{
 .barra70{
     width: 70%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #777cb4;
     border-radius: 100px;
 }
 .barra15{
     width: 15%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #777cb4;
     border-radius: 100px;
 }
 .barra7{
     width: 7%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #777cb4;
     border-radius: 100px;
 }
 .barra3{
     width: 3%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #777cb4;
     border-radius: 100px;
 }
 .barra5{
     width: 5%;
     height: 10px;
-    background-color: #ffd60a;
+    background-color: #777cb4;
     border-radius: 100px;
 }
 
@@ -402,14 +399,14 @@ ol, ul{
 .vermas a{
     font-family: 'Koulen', sans-serif;
     font-size: 20px;
-    color: #ffd60a;
+    color: #777cb4;
 
 }
 
 /*----------------------------------------------------------------------------------------*/
 .barra2{
     height: 2px;
-    background-color: #ffd60a;
+    background-color: #777cb4;
     padding-top: 2px;
     position: relative;
     top: 140rem;
@@ -429,5 +426,5 @@ ol, ul{
 .footer p{
     font-family: "Consolas", "Courier New", monospace;
     font-size: 17px;
-    color: #ffd60a;
+    color: #777cb4;
 }

@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: #0a0a0a;
     position: relative;
     /*font-family: 'Koulen', cursive;*/
     /*font-family: 'Poppins', sans-serif; */
@@ -30,12 +30,15 @@ a{
 ol, ul{
     list-style: none;
 }
-
-.header {
-    height: var(--altura_header);
+.barra{
+    height: 2px;
     background: rgb(151,58,168);
     background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
+    background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
+    padding-top: 2px;
+    position: relative;
 }
+
 .navbar {
     height: 100%;
     display: flex;
@@ -52,13 +55,8 @@ ol, ul{
 .menu_hamburguesa:checked + .ul_links{
     height: calc(50vh - var(--altura_header))
 }
-.logo {
-    position: relative;
-    color: #f8f6e9;
-    font-family: 'Oswald', sans-serif;
-    top: -2px;
-    font-weight: bold;
-    font-size: 3.2rem;
+.logo img{
+    width: 300px;
 }
 
 .list_icon {
@@ -94,20 +92,23 @@ ol, ul{
     font-weight: bold;
 }
 
+
+/*--------------------------------------------------------------------------------------*/
+
 .texto1{
     padding: 4rem 40rem 1.5rem 8.6rem;
 }
 .texto1 h1{
     font-size: 4.2rem;
-    color: black;
+    color: white;
     font-weight: bold;
     font-family: 'Poppins', sans-serif; 
 }
 .texto1 p{
     font-size: 1.52rem;
-    color: black;
+    color: white;
     font-weight: lighter;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Consolas", "Courier New", monospace;
     padding-top: 0.5rem;
 }
 .boton{
@@ -118,7 +119,7 @@ ol, ul{
     padding: 8px 28px; 
     cursor: pointer; 
     border-radius: 5px; 
-    font-family: 'Poppins', sans-serif;
+    font-family: "Consolas", "Courier New", monospace;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -153,9 +154,22 @@ ol, ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.9rem 19rem 0.9rem 19rem;
+}
+.barra1{
+    height: 3px;
     background: rgb(151,58,168);
     background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
-    padding: 0.9rem 19rem 0.9rem 19rem;
+    position: relative;
+    top: 2.8rem;
+    z-index: 10;
+}
+.barra2{
+    height: 3px;
+    background: rgb(151,58,168);
+    background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
+    position: relative;
+    top: -4rem;
 }
 
 .lenguajes img {
@@ -169,6 +183,7 @@ ol, ul{
 .informacion h2{
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    color: white;
 
 }
 .Barra {
@@ -184,6 +199,7 @@ ol, ul{
     font-size: 16px;
     border-color:  rgb(151,58,168);
     border-radius: 10px; 
+    background-color: #0a0a0a;
 }
 .BarraBusqueda{
     padding: 10px 18px 10px 18px;
@@ -204,6 +220,7 @@ ol, ul{
     position: relative;
     top: 20px;
     right: -10px;
+    font-family: "Consolas", "Courier New", monospace;
 }
 
 
@@ -222,11 +239,13 @@ ol, ul{
     width: 50%;
 }
 .informacionC p{
-    font-family: "Quicksand", sans-serif;
+    font-family: "Consolas", "Courier New", monospace;
     font-size: 1rem;
+    color: white;
 }
 .informacionC h3{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Consolas", "Courier New", monospace;
+    color: white;
 }
 .caja{
     display: flex;
@@ -263,66 +282,80 @@ ol, ul{
     top: -55px;
 }
 
-.cursos{
+.barra3 {
+    height: 3px;
     background: rgb(151,58,168);
     background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
-    padding-bottom: 500px;
+    position: relative;
+    top: 0.1rem;
 
+}
+
+
+/**/
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    padding-left: 8.6rem;
+    padding-right: 8.6rem;
 }
 
 .cuadrado{
-    top: 110rem;
     background-color: white;
-    width: 20%;
     border-radius: 20px;
-    padding: 10px 20px 10px 20px;
-    position: absolute;
+    padding: 25px 40px;
+    position: relative; 
+    box-sizing: border-box; 
+    top: 150px;
 }
+
+
 .cursos h2{
+    padding-top: 80px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    font-size: 40px;
+    color: white;
 }
 .cuadrado h4{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.92rem;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 .cuadrado p{
-    font-family: "Quicksand", sans-serif;
+    font-family: "Consolas", "Courier New", monospace;
 }
 .imagenCurso {
+    position: relative;
+    bottom: 100px;
     background-color: white;
     border-radius: 20px;
     background-image: url('img/Logica.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    position: relative;
-    top: -75px;
     width: 100%; 
     height: 250px; 
 }
 
 .caja2{
-
-    position: relative;
-    top: -70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: -30px;
-    padding-right: -30px;
     gap: 10px;
+    margin-top: -80px;
 }
 
 .calificacion{
     background-color: rgb(155, 102, 164);
-    padding: 1px 10px 1px 10px;
+    padding: 1px 10px;
     border-radius: 10px;
-
 }
 .tituloCurso{
     background-color: rgb(155, 102, 164);
-    padding: 1px 10px 1px 10px;
+    padding: 1px 10px;
     border-radius: 10px;
 }
 
@@ -331,21 +364,23 @@ ol, ul{
 }
 
 .infoCurso{
-    position: absolute;
-    top: 227px;
+    margin-top: 12px;
 }
 
 .divisor{
+    position: relative;
+    top: 35px;
     background-color: rgb(151,58,168);
-    padding: 1px 0px 1px 0px;
+    padding: 1px 0;
 }
 
 .lecciones{
-
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    position: relative;
+    top: 10px;
+    padding-top: 40px;
     gap: 10px;
 }
 .lecciones p{
@@ -355,4 +390,30 @@ ol, ul{
 }
 .lecciones img{
     width: 30px;
+}
+
+.barra4 {
+    height: 3px;
+    background: rgb(151,58,168);
+    background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
+    position: relative;
+    top: 15.5rem;
+
+}
+.footer{
+    position: absolute;
+    left: 14rem;
+    right: 14rem;
+    top: 154.3rem;
+    text-align: center;
+    height: 120px;
+}
+.redes img{
+    width: 300px;
+}
+.footer p{
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 17px;
+    color: rgb(151,58,168);
+    color: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);;
 }
