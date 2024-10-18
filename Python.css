@@ -71,7 +71,7 @@ ol, ul{
     /*background-color: var(--color_primario_suave);*/
     background: #ffd60a;
     position: absolute;
-    top: var(--altura_header);
+    top: 66px;
     right: 22%;
     overflow: hidden;
     /* height: calc(100vh - var(--altura_header));*/

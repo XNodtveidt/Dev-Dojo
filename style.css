@@ -99,10 +99,11 @@ ol, ul{
     padding: 4rem 40rem 1.5rem 8.6rem;
 }
 .texto1 h1{
-    font-size: 4.2rem;
+    font-size: 5.5rem;
     color: white;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Koulen', sans-serif;
+    line-height: 100px;
 }
 .texto1 p{
     font-size: 1.52rem;
@@ -112,16 +113,17 @@ ol, ul{
     padding-top: 0.5rem;
 }
 .boton{
-    padding: 1rem 8.6rem 6rem 8.6rem;
+    padding: 0rem 8.6rem 6rem 8.6rem;
 }
 .btn {
     border: none; 
     padding: 8px 28px; 
     cursor: pointer; 
     border-radius: 5px; 
-    font-family: "Consolas", "Courier New", monospace;
+    font-family: 'Koulen', sans-serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
 .inscribete {
     background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
@@ -182,7 +184,8 @@ ol, ul{
 }
 .informacion h2{
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Koulen', sans-serif;
+    font-size: 50px;
     color: white;
 
 }
@@ -214,13 +217,39 @@ ol, ul{
 }
 .BarraBusqueda img{
     height: 18px;
+    position: relative;
+    right: 7px;
+    top: 3px;
 }
 
 .buscar{
     position: relative;
-    top: 20px;
+    top: 27px;
     right: -10px;
-    font-family: "Consolas", "Courier New", monospace;
+    font-family: 'Koulen', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+}
+.btn2 {
+    border: none; 
+    padding: 2px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-family: 'Koulen', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.inscribete2 {
+    background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
+    color: #f8f6e9;
+    
+
+} 
+.inscribete2:hover {
+    background-color: #f8f6e9; border: 1.7px solid rgb(151,58,168);
+    background: #f8f6e9;
+    color: rgb(151,58,168);
 }
 
 
@@ -254,7 +283,7 @@ ol, ul{
 }
 .imagenes img{
     width: 95px;
-    height: 65px;
+    height: 75px;
 }
 .imagenes{
     width: 22%;
@@ -308,21 +337,27 @@ ol, ul{
     padding: 25px 40px;
     position: relative; 
     box-sizing: border-box; 
-    top: 150px;
+    top: 120px;
 }
 
 
 .cursos h2{
-    padding-top: 80px;
-    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    font-family: 'Koulen', sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
 }
 .cuadrado h4{
-    font-family: "Consolas", "Courier New", monospace;
-    font-size: 1.1rem;
+    font-family: 'Koulen', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 1rem;
     font-weight: bold;
+}
+.infoCurso h4{
+    font-family: 'Koulen', sans-serif;
+    color: black;
 }
 .cuadrado p{
     font-family: "Consolas", "Courier New", monospace;
@@ -334,7 +369,31 @@ ol, ul{
     border-radius: 20px;
     background-image: url('img/Logica.png');
     background-size: cover; 
-    background-position: center; 
+    background-position: 0px -20px; 
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 250px; 
+}
+.imagenCursoF {
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('img/Frontend.png');
+    background-size: cover; 
+    background-position: 0px -20px; 
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 250px; 
+}
+.imagenCursoB {
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('img/backend.png');
+    background-size: cover; 
+    background-position: 0px -20px; 
     background-repeat: no-repeat;
     width: 100%; 
     height: 250px; 
@@ -355,7 +414,17 @@ ol, ul{
 }
 .tituloCurso{
     background-color: rgb(155, 102, 164);
-    padding: 1px 10px;
+    padding: 0px 50px;
+    border-radius: 10px;
+}
+.tituloCursoF{
+    background-color: rgb(155, 102, 164);
+    padding: 0px 100px;
+    border-radius: 10px;
+}
+.tituloCursoB{
+    background-color: rgb(155, 102, 164);
+    padding: 0px 100px;
     border-radius: 10px;
 }
 
@@ -371,7 +440,7 @@ ol, ul{
     position: relative;
     top: 35px;
     background-color: rgb(151,58,168);
-    padding: 1px 0;
+    padding: 1.5px 0;
 }
 
 .lecciones{
@@ -397,14 +466,14 @@ ol, ul{
     background: rgb(151,58,168);
     background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
     position: relative;
-    top: 15.5rem;
+    top: 13.5rem;
 
 }
 .footer{
     position: absolute;
     left: 14rem;
     right: 14rem;
-    top: 154.3rem;
+    top: 158.25rem;
     text-align: center;
     height: 120px;
 }

@@ -68,7 +68,7 @@ ol, ul{
     /*background-color: var(--color_primario_suave);*/
     background: #777cb4;
     position: absolute;
-    top: var(--altura_header);
+    top: 66px;
     right: 22%;
     overflow: hidden;
     /* height: calc(100vh - var(--altura_header));*/
@@ -86,8 +86,7 @@ ol, ul{
 .link {
     top: -10px;
     position: relative;
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif; 
+    font-size: 2rem; 
     color: #f8f6e9;
     font-weight: bold;
 }
