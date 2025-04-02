@@ -121,16 +121,23 @@ ol, ul{
 /* --------------------------------------*/
 
 .cuadro1{
-    position: absolute;
-
+    /*position: absolute;
     display: flex;
     left: 14rem;
-    right: 14rem;
+    right: 14rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
 }
 .texto1{
+    /*
     padding-top: 50px;
-    
-    width: 50%;
+    width: 50%;*/
+    flex: 1;
+    padding-left: 14rem;
+    padding-right: 10rem;
 }
 .texto1 h1{
     font-family: 'Koulen', sans-serif; 
@@ -145,10 +152,12 @@ ol, ul{
 }
 
 .imagen1python{
+    flex: 1;
+    padding-top: 1.5rem;
+    /*
     padding-top: 50px;
-    
     width: 50%;
-    text-align: right;
+    text-align: right;*/
 }
 .imagen1python img{
     width: 350px;
@@ -156,16 +165,15 @@ ol, ul{
 
 
 .cuadro2{
-    top: 39rem;
-    position: absolute;
     display: flex;
-    left: 14rem;
-    right: 14rem;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
 }
 .texto2{
-    padding-top: 50px;
-    
-    width: 50%;
+    flex: 1;
+    padding-right: 11rem;
 }
 .texto2 h2{
     font-family: 'Koulen', sans-serif; 
@@ -185,10 +193,9 @@ ol, ul{
 }
 
 .imagen2python{
-    padding-top: 50px;
-    
-    width: 50%;
-    text-align:left;
+    flex: 1;
+    padding-top: 1.5rem;
+    padding-left: 14rem;
 }
 .imagen2python img{
     width: 350px;

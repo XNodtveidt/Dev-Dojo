@@ -92,12 +92,21 @@ ol, ul{
 
 
 /*--------------------------------------------------------------------------------------*/
+.contenedorInicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
+}
 
 .texto1{
-    padding: 4rem 40rem 1.5rem 8.6rem;
+    padding-top: 2rem;
+    flex: 2;
+    padding-left: 10rem;
 }
 .texto1 h1{
-    font-size: 5.5rem;
+    font-size: 5rem;
     color: white;
     font-weight: bold;
     font-family: 'Koulen', sans-serif;
@@ -111,7 +120,8 @@ ol, ul{
     padding-top: 0.5rem;
 }
 .boton{
-    padding: 0rem 8.6rem 6rem 8.6rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 .btn {
     border: none; 
@@ -136,9 +146,7 @@ ol, ul{
 }
 
 .imagen1 {
-    position: absolute;
-    top: 9.5rem; 
-    left: 60rem; 
+    flex: 2;
 }
 
 .imagen1 img {
@@ -149,8 +157,6 @@ ol, ul{
 
 .lenguajes {
     width: 100%;
-    position: absolute; 
-    top: 45rem; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,17 +166,9 @@ ol, ul{
     height: 3px;
     background: rgb(151,58,168);
     background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
-    position: relative;
-    top: 2.8rem;
     z-index: 10;
 }
-.barra2{
-    height: 3px;
-    background: rgb(151,58,168);
-    background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
-    position: relative;
-    top: -4rem;
-}
+
 
 .lenguajes img {
     height: 4.8rem;
@@ -227,6 +225,9 @@ ol, ul{
     font-family: 'Koulen', sans-serif;
     font-size: 1rem;
     letter-spacing: 1.5px;
+}
+.boton2{
+    padding: 0rem 8.6rem 6rem 8.6rem;
 }
 .btn2 {
     border: none; 
@@ -314,7 +315,7 @@ ol, ul{
     background: rgb(151,58,168);
     background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
     position: relative;
-    top: 0.1rem;
+    top: 0.2rem;
 
 }
 
@@ -464,7 +465,7 @@ ol, ul{
     background: rgb(151,58,168);
     background: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);
     position: relative;
-    top: 13.5rem;
+    top: 12rem;
 
 }
 .footer{
@@ -484,6 +485,23 @@ ol, ul{
     color: rgb(151,58,168);
     color: linear-gradient(90deg, rgba(151,58,168,1) 15%, rgba(234,105,139,1) 85%);;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1200px) {
     .texto1 {
         padding: 3rem 20rem 1rem 4rem;
